@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".GameFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/iv_first_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="15dp"
+            tools:src="@drawable/vor" />
+
+        <ImageView
+            android:id="@+id/iv_second_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            tools:src="@drawable/killer_place" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/iv_third_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="15dp"
+            tools:src="@drawable/skilet" />
+
+        <ImageView
+            android:id="@+id/iv_four_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            tools:src="@drawable/sniper" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ответ"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm" />
+
+    <ImageView
+        android:id="@+id/iv_prompt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:layout_margin="15dp"
+        android:src="@drawable/lam" />
+
+    <TextView
+        android:id="@+id/show_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:paddingTop="81dp"
+        android:text="Level Number"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
